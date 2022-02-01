@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+nav li {
+  display: inline;
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+  color: black;
+}
+nav a {
+  color: black;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  place-self: center;
+}
+
+nav {
+  background-color: rgb(180, 63, 63);
+  width: 80%;
+}
