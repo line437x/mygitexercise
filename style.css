@@ -7,7 +7,14 @@ nav li {
   text-decoration-line: underline;
   text-underline-offset: 4px;
   color: black;
+  border-left: 1px solid;
+  padding-left: 10%;
 }
+nav li:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+
 nav a {
   color: black;
 }
